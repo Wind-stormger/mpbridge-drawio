@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-02-16T03:12:15.015Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36 Edg/110.0.1587.41" etag="DsVZpoEOR8ph97KqDGAq" version="20.8.20" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2023-02-16T04:04:39.860Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36 Edg/110.0.1587.41" etag="shyGd6SaDP2kUl28RRF-" version="20.8.20" type="github" pages="4">
   <diagram name="Page-1" id="c7558073-3199-34d8-9f00-42111426c3f3">
-    <mxGraphModel dx="1930" dy="1352" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="826" pageHeight="1169" background="none" math="0" shadow="0">
+    <mxGraphModel dx="1135" dy="795" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="826" pageHeight="1169" background="none" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -532,6 +532,141 @@
         </mxCell>
         <mxCell id="6XR0rg1wRnxbFmO_zQej-62" value="Check the hash of the files both in the local and the device,&amp;nbsp;and then push the different files from the local to the device." style="whiteSpace=wrap;html=1;fontSize=14;fillColor=#db2843;strokeColor=none;fontColor=#FFFFFF;rounded=1;arcSize=50;strokeWidth=1;spacingLeft=0;fontStyle=1;spacing=10;fillStyle=auto;" vertex="1" parent="1">
           <mxGeometry x="220.64" y="570" width="317.5" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="_Kld_-4yB36tCiyzd0Gu" name="第 4 页">
+    <mxGraphModel dx="483" dy="338" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="BDJT-FSEPmB3L_fU_Y0J-1" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#000000;" edge="1" parent="1" source="BDJT-FSEPmB3L_fU_Y0J-2" target="BDJT-FSEPmB3L_fU_Y0J-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="BDJT-FSEPmB3L_fU_Y0J-2" value="Sync files" style="rounded=1;whiteSpace=wrap;html=1;arcSize=50;strokeColor=none;strokeWidth=1;fillColor=#DB2843;fontColor=#FFFFFF;whiteSpace=wrap;align=center;verticalAlign=middle;spacingLeft=0;fontStyle=1;fontSize=14;spacing=10;fillStyle=auto;" vertex="1" parent="1">
+          <mxGeometry x="128.75" y="30" width="92.5" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="BDJT-FSEPmB3L_fU_Y0J-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#000000;" edge="1" parent="1" source="BDJT-FSEPmB3L_fU_Y0J-4" target="BDJT-FSEPmB3L_fU_Y0J-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="BDJT-FSEPmB3L_fU_Y0J-4" value="Clean Sync files" style="whiteSpace=wrap;html=1;fontSize=14;fillColor=#DB2843;strokeColor=none;fontColor=#FFFFFF;rounded=1;arcSize=50;strokeWidth=1;spacingLeft=0;fontStyle=1;spacing=10;fillStyle=auto;" vertex="1" parent="1">
+          <mxGeometry x="402.5" y="30" width="135" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="BDJT-FSEPmB3L_fU_Y0J-5" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontColor=#000000;" edge="1" parent="1" source="BDJT-FSEPmB3L_fU_Y0J-6" target="BDJT-FSEPmB3L_fU_Y0J-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="BDJT-FSEPmB3L_fU_Y0J-6" value="Pull the files that are not in the local but exist in the device to the local." style="whiteSpace=wrap;html=1;fontSize=14;fillColor=#db2843;strokeColor=none;fontColor=#FFFFFF;rounded=1;arcSize=50;strokeWidth=1;spacingLeft=0;fontStyle=1;spacing=10;fillStyle=auto;" vertex="1" parent="1">
+          <mxGeometry x="40" y="70" width="270" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="BDJT-FSEPmB3L_fU_Y0J-7" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontColor=#000000;" edge="1" parent="1" source="BDJT-FSEPmB3L_fU_Y0J-8" target="BDJT-FSEPmB3L_fU_Y0J-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="BDJT-FSEPmB3L_fU_Y0J-8" value="Delete files from the device that do not exist locally but exist on the device" style="whiteSpace=wrap;html=1;fontSize=14;fillColor=#db2843;strokeColor=none;fontColor=#FFFFFF;rounded=1;arcSize=50;strokeWidth=1;spacingLeft=0;fontStyle=1;spacing=10;fillStyle=auto;" vertex="1" parent="1">
+          <mxGeometry x="330" y="70" width="280" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="BDJT-FSEPmB3L_fU_Y0J-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#000000;" edge="1" parent="1" source="BDJT-FSEPmB3L_fU_Y0J-10" target="BDJT-FSEPmB3L_fU_Y0J-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="BDJT-FSEPmB3L_fU_Y0J-10" value="Push files that are not in the device but exist locally to the device." style="whiteSpace=wrap;html=1;fontSize=14;fillColor=#db2843;strokeColor=none;fontColor=#FFFFFF;rounded=1;arcSize=50;strokeWidth=1;spacingLeft=0;fontStyle=1;spacing=10;fillStyle=auto;" vertex="1" parent="1">
+          <mxGeometry x="198.13" y="160" width="252.5" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="BDJT-FSEPmB3L_fU_Y0J-11" value="Check the hash of the files both in the local and the device,&amp;nbsp;and then push the different files from the local to the device." style="whiteSpace=wrap;html=1;fontSize=14;fillColor=#db2843;strokeColor=none;fontColor=#FFFFFF;rounded=1;arcSize=50;strokeWidth=1;spacingLeft=0;fontStyle=1;spacing=10;fillStyle=auto;" vertex="1" parent="1">
+          <mxGeometry x="165.63" y="230" width="317.5" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="pwew81gO779MX-6mZWK2-1" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="BDJT-FSEPmB3L_fU_Y0J-12" target="AylMCOlQZiBIWTEO5aXp-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="BDJT-FSEPmB3L_fU_Y0J-12" value="Start" style="rounded=1;whiteSpace=wrap;html=1;arcSize=50;strokeColor=none;strokeWidth=1;fillColor=#DB2843;fontColor=#FFFFFF;whiteSpace=wrap;align=center;verticalAlign=middle;spacingLeft=0;fontStyle=1;fontSize=14;spacing=10;fillStyle=auto;" vertex="1" parent="1">
+          <mxGeometry x="60" y="440" width="92.5" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="hLPXcxWM0eQVf6KEzY4e-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="AylMCOlQZiBIWTEO5aXp-2" target="hLPXcxWM0eQVf6KEzY4e-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="AylMCOlQZiBIWTEO5aXp-2" value="get file and dir listings" style="whiteSpace=wrap;html=1;fontSize=14;fillColor=#DB2843;strokeColor=none;fontColor=#FFFFFF;rounded=1;arcSize=50;strokeWidth=1;spacingLeft=0;fontStyle=1;spacing=10;fillStyle=auto;" vertex="1" parent="1">
+          <mxGeometry x="180" y="430" width="110" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="YOnJV_YKPxUbhP79yvrs-2" value="Clean Sync files" style="rhombus;whiteSpace=wrap;html=1;fontSize=14;fillColor=#DB2843;strokeColor=none;fontColor=#FFFFFF;rounded=1;arcSize=50;strokeWidth=1;spacingLeft=0;fontStyle=1;spacing=10;fillStyle=auto;" vertex="1" parent="1">
+          <mxGeometry x="850" y="290" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="hLPXcxWM0eQVf6KEzY4e-21" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="YOnJV_YKPxUbhP79yvrs-5" target="YOnJV_YKPxUbhP79yvrs-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="hLPXcxWM0eQVf6KEzY4e-22" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="YOnJV_YKPxUbhP79yvrs-5" target="hLPXcxWM0eQVf6KEzY4e-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="YOnJV_YKPxUbhP79yvrs-5" value="check&amp;nbsp;" style="whiteSpace=wrap;html=1;fontSize=14;fillColor=#DB2843;strokeColor=none;fontColor=#FFFFFF;rounded=1;arcSize=50;strokeWidth=1;spacingLeft=0;fontStyle=1;spacing=10;fillStyle=auto;" vertex="1" parent="1">
+          <mxGeometry x="490" y="420" width="73.75" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="hLPXcxWM0eQVf6KEzY4e-14" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;jumpStyle=arc;" edge="1" parent="1" source="YOnJV_YKPxUbhP79yvrs-6" target="hLPXcxWM0eQVf6KEzY4e-20">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1000" y="410" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="800" y="420" />
+              <mxPoint x="800" y="570" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hLPXcxWM0eQVf6KEzY4e-15" value="no" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="hLPXcxWM0eQVf6KEzY4e-14">
+          <mxGeometry x="-0.5826" y="1" relative="1" as="geometry">
+            <mxPoint x="-51" y="1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hLPXcxWM0eQVf6KEzY4e-26" value="yes" style="edgeStyle=orthogonalEdgeStyle;rounded=1;jumpStyle=arc;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;endArrow=none;endFill=0;" edge="1" parent="1" source="YOnJV_YKPxUbhP79yvrs-6">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="770" y="380" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="YOnJV_YKPxUbhP79yvrs-6" value="exist in the device" style="rhombus;whiteSpace=wrap;html=1;fontSize=14;fillColor=#DB2843;strokeColor=none;fontColor=#FFFFFF;rounded=1;arcSize=50;strokeWidth=1;spacingLeft=0;fontStyle=1;spacing=10;fillStyle=auto;" vertex="1" parent="1">
+          <mxGeometry x="610" y="340" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="hLPXcxWM0eQVf6KEzY4e-16" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;jumpStyle=arc;" edge="1" parent="1" source="hLPXcxWM0eQVf6KEzY4e-1" target="YOnJV_YKPxUbhP79yvrs-2">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="910" y="580" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="670" y="580" />
+              <mxPoint x="780" y="580" />
+              <mxPoint x="780" y="330" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hLPXcxWM0eQVf6KEzY4e-17" value="no" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="hLPXcxWM0eQVf6KEzY4e-16">
+          <mxGeometry x="-0.5105" y="-1" relative="1" as="geometry">
+            <mxPoint x="-85" y="4" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hLPXcxWM0eQVf6KEzY4e-1" value="exist in the local" style="rhombus;whiteSpace=wrap;html=1;fontSize=14;fillColor=#DB2843;strokeColor=none;fontColor=#FFFFFF;rounded=1;arcSize=50;strokeWidth=1;spacingLeft=0;fontStyle=1;spacing=10;fillStyle=auto;" vertex="1" parent="1">
+          <mxGeometry x="610" y="480" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="hLPXcxWM0eQVf6KEzY4e-8" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="hLPXcxWM0eQVf6KEzY4e-6" target="YOnJV_YKPxUbhP79yvrs-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="hLPXcxWM0eQVf6KEzY4e-6" value="Are all files and dirs checked?" style="rhombus;whiteSpace=wrap;html=1;fontSize=14;fillColor=#DB2843;strokeColor=none;fontColor=#FFFFFF;rounded=1;arcSize=50;strokeWidth=1;spacingLeft=0;fontStyle=1;spacing=10;fillStyle=auto;" vertex="1" parent="1">
+          <mxGeometry x="320" y="407.5" width="147.5" height="85" as="geometry" />
+        </mxCell>
+        <mxCell id="hLPXcxWM0eQVf6KEzY4e-20" value="Clean Sync files" style="rhombus;whiteSpace=wrap;html=1;fontSize=14;fillColor=#DB2843;strokeColor=none;fontColor=#FFFFFF;rounded=1;arcSize=50;strokeWidth=1;spacingLeft=0;fontStyle=1;spacing=10;fillStyle=auto;" vertex="1" parent="1">
+          <mxGeometry x="850" y="530" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="hLPXcxWM0eQVf6KEzY4e-23" value="hash" style="whiteSpace=wrap;html=1;fontSize=14;fillColor=#DB2843;strokeColor=none;fontColor=#FFFFFF;rounded=1;arcSize=50;strokeWidth=1;spacingLeft=0;fontStyle=1;spacing=10;fillStyle=auto;" vertex="1" parent="1">
+          <mxGeometry x="930" y="420" width="73.75" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="hLPXcxWM0eQVf6KEzY4e-28" value="yes" style="edgeStyle=orthogonalEdgeStyle;rounded=1;jumpStyle=arc;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;endArrow=none;endFill=0;" edge="1" parent="1" source="hLPXcxWM0eQVf6KEzY4e-1">
+          <mxGeometry x="-0.3333" relative="1" as="geometry">
+            <mxPoint x="790" y="520" as="targetPoint" />
+            <mxPoint x="740" y="390" as="sourcePoint" />
+            <mxPoint as="offset" />
+            <Array as="points">
+              <mxPoint x="750" y="520" />
+              <mxPoint x="750" y="520" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hLPXcxWM0eQVf6KEzY4e-29" value="" style="endArrow=none;html=1;rounded=1;jumpStyle=arc;entryX=0;entryY=0.5;entryDx=0;entryDy=0;edgeStyle=orthogonalEdgeStyle;" edge="1" parent="1" target="hLPXcxWM0eQVf6KEzY4e-23">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="770" y="380" as="sourcePoint" />
+            <mxPoint x="870" y="370" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
