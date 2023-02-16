@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-02-16T06:33:50.887Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36 Edg/110.0.1587.41" etag="nkuIUvAxYGwpSJChBWh7" version="20.8.20" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2023-02-16T06:47:34.213Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36 Edg/110.0.1587.41" etag="kxqTWjSpg4Y1TkyM0VNt" version="20.8.20" type="github" pages="5">
   <diagram name="Page-1" id="c7558073-3199-34d8-9f00-42111426c3f3">
-    <mxGraphModel dx="1135" dy="795" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="826" pageHeight="1169" background="none" math="0" shadow="0">
+    <mxGraphModel dx="1602" dy="1127" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="826" pageHeight="1169" background="none" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -185,44 +185,11 @@
         <mxCell id="4ESGH94lrr7zL_kRy-XP-1" value="set [PORT]&lt;br&gt;set&amp;nbsp;[DIR_PATH]" style="whiteSpace=wrap;html=1;fontSize=14;fillColor=#33A64C;strokeColor=none;fontColor=#FFFFFF;rounded=1;arcSize=50;strokeWidth=1;spacingLeft=0;fontStyle=1;spacing=10;fillStyle=auto;" parent="1" vertex="1">
           <mxGeometry x="131.25" y="515" width="120" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="wGB_yLmu1SVpgj2lkMKc-4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#000000;" parent="1" source="TfQ3e1Z_DDXTJXfwlexU-1" target="wGB_yLmu1SVpgj2lkMKc-1" edge="1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="TfQ3e1Z_DDXTJXfwlexU-1" value="Sync files" style="rounded=1;whiteSpace=wrap;html=1;arcSize=50;strokeColor=none;strokeWidth=1;fillColor=#DB2843;fontColor=#FFFFFF;whiteSpace=wrap;align=center;verticalAlign=middle;spacingLeft=0;fontStyle=1;fontSize=14;spacing=10;fillStyle=auto;" parent="1" vertex="1">
-          <mxGeometry x="258.75" y="730" width="92.5" height="20" as="geometry" />
-        </mxCell>
-        <mxCell id="wGB_yLmu1SVpgj2lkMKc-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#000000;" parent="1" source="TfQ3e1Z_DDXTJXfwlexU-2" target="wGB_yLmu1SVpgj2lkMKc-3" edge="1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="TfQ3e1Z_DDXTJXfwlexU-2" value="Clean Sync files" style="whiteSpace=wrap;html=1;fontSize=14;fillColor=#DB2843;strokeColor=none;fontColor=#FFFFFF;rounded=1;arcSize=50;strokeWidth=1;spacingLeft=0;fontStyle=1;spacing=10;fillStyle=auto;" parent="1" vertex="1">
-          <mxGeometry x="652.5" y="730" width="135" height="20" as="geometry" />
-        </mxCell>
-        <mxCell id="wGB_yLmu1SVpgj2lkMKc-8" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontColor=#000000;" parent="1" source="wGB_yLmu1SVpgj2lkMKc-1" target="wGB_yLmu1SVpgj2lkMKc-6" edge="1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="wGB_yLmu1SVpgj2lkMKc-1" value="Pull the files that are not in the local but exist in the device to the local." style="whiteSpace=wrap;html=1;fontSize=14;fillColor=#db2843;strokeColor=none;fontColor=#FFFFFF;rounded=1;arcSize=50;strokeWidth=1;spacingLeft=0;fontStyle=1;spacing=10;fillStyle=auto;" parent="1" vertex="1">
-          <mxGeometry x="170" y="790" width="270" height="50" as="geometry" />
-        </mxCell>
-        <mxCell id="wGB_yLmu1SVpgj2lkMKc-9" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontColor=#000000;" parent="1" source="wGB_yLmu1SVpgj2lkMKc-3" target="wGB_yLmu1SVpgj2lkMKc-6" edge="1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="wGB_yLmu1SVpgj2lkMKc-3" value="Delete files from the device that do not exist locally but exist on the device" style="whiteSpace=wrap;html=1;fontSize=14;fillColor=#db2843;strokeColor=none;fontColor=#FFFFFF;rounded=1;arcSize=50;strokeWidth=1;spacingLeft=0;fontStyle=1;spacing=10;fillStyle=auto;" parent="1" vertex="1">
-          <mxGeometry x="580" y="790" width="280" height="50" as="geometry" />
-        </mxCell>
-        <mxCell id="wGB_yLmu1SVpgj2lkMKc-10" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#000000;" parent="1" source="wGB_yLmu1SVpgj2lkMKc-6" target="wGB_yLmu1SVpgj2lkMKc-7" edge="1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="wGB_yLmu1SVpgj2lkMKc-6" value="Push files that are not in the device but exist locally to the device." style="whiteSpace=wrap;html=1;fontSize=14;fillColor=#db2843;strokeColor=none;fontColor=#FFFFFF;rounded=1;arcSize=50;strokeWidth=1;spacingLeft=0;fontStyle=1;spacing=10;fillStyle=auto;" parent="1" vertex="1">
-          <mxGeometry x="386.25" y="880" width="252.5" height="50" as="geometry" />
-        </mxCell>
-        <mxCell id="wGB_yLmu1SVpgj2lkMKc-7" value="Check the hash of the files both in the local and the device,&amp;nbsp;and then push the different files from the local to the device." style="whiteSpace=wrap;html=1;fontSize=14;fillColor=#db2843;strokeColor=none;fontColor=#FFFFFF;rounded=1;arcSize=50;strokeWidth=1;spacingLeft=0;fontStyle=1;spacing=10;fillStyle=auto;" parent="1" vertex="1">
-          <mxGeometry x="353.75" y="970" width="317.5" height="60" as="geometry" />
-        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
   <diagram id="3utfsI1VflF9QZqchVde" name="Page-2">
-    <mxGraphModel dx="965" dy="676" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="961" dy="676" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -409,7 +376,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="tLspm4iW1HW51QJCvs00" name="Page-3">
-    <mxGraphModel dx="1131" dy="795" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1373" dy="966" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -500,44 +467,11 @@
         <mxCell id="6XR0rg1wRnxbFmO_zQej-51" value="set [PORT]&lt;br&gt;set&amp;nbsp;[DIR_PATH]" style="whiteSpace=wrap;html=1;fontSize=14;fillColor=#33A64C;strokeColor=none;fontColor=#FFFFFF;rounded=1;arcSize=50;strokeWidth=1;spacingLeft=0;fontStyle=1;spacing=10;fillStyle=auto;" vertex="1" parent="1">
           <mxGeometry x="180.01" y="255" width="120" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="6XR0rg1wRnxbFmO_zQej-52" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#000000;" edge="1" parent="1" source="6XR0rg1wRnxbFmO_zQej-53" target="6XR0rg1wRnxbFmO_zQej-57">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="6XR0rg1wRnxbFmO_zQej-53" value="Sync files" style="rounded=1;whiteSpace=wrap;html=1;arcSize=50;strokeColor=none;strokeWidth=1;fillColor=#DB2843;fontColor=#FFFFFF;whiteSpace=wrap;align=center;verticalAlign=middle;spacingLeft=0;fontStyle=1;fontSize=14;spacing=10;fillStyle=auto;" vertex="1" parent="1">
-          <mxGeometry x="183.76" y="370" width="92.5" height="20" as="geometry" />
-        </mxCell>
-        <mxCell id="6XR0rg1wRnxbFmO_zQej-54" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#000000;" edge="1" parent="1" source="6XR0rg1wRnxbFmO_zQej-55" target="6XR0rg1wRnxbFmO_zQej-59">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="6XR0rg1wRnxbFmO_zQej-55" value="Clean Sync files" style="whiteSpace=wrap;html=1;fontSize=14;fillColor=#DB2843;strokeColor=none;fontColor=#FFFFFF;rounded=1;arcSize=50;strokeWidth=1;spacingLeft=0;fontStyle=1;spacing=10;fillStyle=auto;" vertex="1" parent="1">
-          <mxGeometry x="457.51" y="370" width="135" height="20" as="geometry" />
-        </mxCell>
-        <mxCell id="6XR0rg1wRnxbFmO_zQej-56" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontColor=#000000;" edge="1" parent="1" source="6XR0rg1wRnxbFmO_zQej-57" target="6XR0rg1wRnxbFmO_zQej-61">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="6XR0rg1wRnxbFmO_zQej-57" value="Pull the files that are not in the local but exist in the device to the local." style="whiteSpace=wrap;html=1;fontSize=14;fillColor=#db2843;strokeColor=none;fontColor=#FFFFFF;rounded=1;arcSize=50;strokeWidth=1;spacingLeft=0;fontStyle=1;spacing=10;fillStyle=auto;" vertex="1" parent="1">
-          <mxGeometry x="95.01" y="410" width="270" height="50" as="geometry" />
-        </mxCell>
-        <mxCell id="6XR0rg1wRnxbFmO_zQej-58" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontColor=#000000;" edge="1" parent="1" source="6XR0rg1wRnxbFmO_zQej-59" target="6XR0rg1wRnxbFmO_zQej-61">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="6XR0rg1wRnxbFmO_zQej-59" value="Delete files from the device that do not exist locally but exist on the device" style="whiteSpace=wrap;html=1;fontSize=14;fillColor=#db2843;strokeColor=none;fontColor=#FFFFFF;rounded=1;arcSize=50;strokeWidth=1;spacingLeft=0;fontStyle=1;spacing=10;fillStyle=auto;" vertex="1" parent="1">
-          <mxGeometry x="385.01" y="410" width="280" height="50" as="geometry" />
-        </mxCell>
-        <mxCell id="6XR0rg1wRnxbFmO_zQej-60" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#000000;" edge="1" parent="1" source="6XR0rg1wRnxbFmO_zQej-61" target="6XR0rg1wRnxbFmO_zQej-62">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="6XR0rg1wRnxbFmO_zQej-61" value="Push files that are not in the device but exist locally to the device." style="whiteSpace=wrap;html=1;fontSize=14;fillColor=#db2843;strokeColor=none;fontColor=#FFFFFF;rounded=1;arcSize=50;strokeWidth=1;spacingLeft=0;fontStyle=1;spacing=10;fillStyle=auto;" vertex="1" parent="1">
-          <mxGeometry x="253.14" y="500" width="252.5" height="50" as="geometry" />
-        </mxCell>
-        <mxCell id="6XR0rg1wRnxbFmO_zQej-62" value="Check the hash of the files both in the local and the device,&amp;nbsp;and then push the different files from the local to the device." style="whiteSpace=wrap;html=1;fontSize=14;fillColor=#db2843;strokeColor=none;fontColor=#FFFFFF;rounded=1;arcSize=50;strokeWidth=1;spacingLeft=0;fontStyle=1;spacing=10;fillStyle=auto;" vertex="1" parent="1">
-          <mxGeometry x="220.64" y="570" width="317.5" height="60" as="geometry" />
-        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
   <diagram id="_Kld_-4yB36tCiyzd0Gu" name="Page-4">
-    <mxGraphModel dx="1373" dy="966" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1602" dy="1127" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -598,7 +532,7 @@
         </mxCell>
         <mxCell id="hLPXcxWM0eQVf6KEzY4e-17" value="no" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="hLPXcxWM0eQVf6KEzY4e-16">
           <mxGeometry x="-0.5105" y="-1" relative="1" as="geometry">
-            <mxPoint x="-70" y="-1" as="offset" />
+            <mxPoint x="-56" y="-1" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="hLPXcxWM0eQVf6KEzY4e-1" value="exist in the local" style="rhombus;whiteSpace=wrap;html=1;fontSize=14;fillColor=#DB2843;strokeColor=none;fontColor=#FFFFFF;rounded=1;arcSize=50;strokeWidth=1;spacingLeft=0;fontStyle=1;spacing=10;fillStyle=auto;" vertex="1" parent="1">
@@ -729,8 +663,8 @@
           <mxGeometry x="-0.9208" relative="1" as="geometry">
             <mxPoint x="343.62" y="275.15" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="540.62" y="255.14999999999998" />
-              <mxPoint x="343.62" y="255.14999999999998" />
+              <mxPoint x="541" y="280" />
+              <mxPoint x="343" y="280" />
             </Array>
             <mxPoint as="offset" />
           </mxGeometry>
@@ -743,6 +677,53 @@
         </mxCell>
         <mxCell id="b3W3ip04yMCaJJItsyfs-1" value="&lt;b&gt;Sync files &lt;br&gt;or &lt;br&gt;Clean Sync files&lt;/b&gt;" style="html=1;shadow=0;dashed=0;shape=mxgraph.bootstrap.rrect;rSize=5;strokeColor=#DB2843;strokeWidth=1;fillColor=none;fontColor=#DB2843;whiteSpace=wrap;align=center;verticalAlign=middle;spacingLeft=0;fontStyle=0;fontSize=16;spacing=5;" vertex="1" parent="1">
           <mxGeometry x="60" y="25.060000000000002" width="143.75" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="BL9JiZ7X3qT89XVzQPEw-1" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;jumpStyle=arc;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#000000;fontColor=#000000;endArrow=classic;endFill=1;" edge="1" parent="1" source="j8kgosA5A-I4B50uz8iH-2" target="hLPXcxWM0eQVf6KEzY4e-63">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="j8kgosA5A-I4B50uz8iH-2" value="Create an &lt;u&gt;mpbridge.ignore&lt;/u&gt; in&amp;nbsp;&lt;span style=&quot;border-color: var(--border-color); font-size: 12px; text-align: center;&quot;&gt;&lt;font style=&quot;border-color: var(--border-color);&quot;&gt;[DIR_PATH]&lt;/font&gt;&lt;/span&gt;, and add the files or dirs you want to ignore, separating each item with a newline." style="html=1;shadow=0;dashed=0;shape=mxgraph.bootstrap.rrect;rSize=5;strokeColor=none;strokeWidth=1;fillColor=#FFBC26;fontColor=#000000;whiteSpace=wrap;align=left;verticalAlign=middle;spacingLeft=0;fontStyle=1;fontSize=14;spacing=5;" vertex="1" parent="1">
+          <mxGeometry x="415.62" y="20.06" width="250" height="70" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="UroZShtIp6M1WT5NMGBa" name="Page-5">
+    <mxGraphModel dx="2403" dy="1690" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="cthHpz0YjyCCFyavsiXO-1" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#000000;" edge="1" parent="1" source="cthHpz0YjyCCFyavsiXO-2" target="cthHpz0YjyCCFyavsiXO-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="cthHpz0YjyCCFyavsiXO-2" value="Sync files" style="rounded=1;whiteSpace=wrap;html=1;arcSize=50;strokeColor=none;strokeWidth=1;fillColor=#DB2843;fontColor=#FFFFFF;whiteSpace=wrap;align=center;verticalAlign=middle;spacingLeft=0;fontStyle=1;fontSize=14;spacing=10;fillStyle=auto;" vertex="1" parent="1">
+          <mxGeometry x="157.75" y="60" width="92.5" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="cthHpz0YjyCCFyavsiXO-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#000000;" edge="1" parent="1" source="cthHpz0YjyCCFyavsiXO-4" target="cthHpz0YjyCCFyavsiXO-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="cthHpz0YjyCCFyavsiXO-4" value="Clean Sync files" style="whiteSpace=wrap;html=1;fontSize=14;fillColor=#DB2843;strokeColor=none;fontColor=#FFFFFF;rounded=1;arcSize=50;strokeWidth=1;spacingLeft=0;fontStyle=1;spacing=10;fillStyle=auto;" vertex="1" parent="1">
+          <mxGeometry x="551.5" y="60" width="135" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="cthHpz0YjyCCFyavsiXO-5" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontColor=#000000;" edge="1" parent="1" source="cthHpz0YjyCCFyavsiXO-6" target="cthHpz0YjyCCFyavsiXO-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="cthHpz0YjyCCFyavsiXO-6" value="Pull the files that are not in the local but exist in the device to the local." style="whiteSpace=wrap;html=1;fontSize=14;fillColor=#db2843;strokeColor=none;fontColor=#FFFFFF;rounded=1;arcSize=50;strokeWidth=1;spacingLeft=0;fontStyle=1;spacing=10;fillStyle=auto;" vertex="1" parent="1">
+          <mxGeometry x="69" y="120" width="270" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="cthHpz0YjyCCFyavsiXO-7" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontColor=#000000;" edge="1" parent="1" source="cthHpz0YjyCCFyavsiXO-8" target="cthHpz0YjyCCFyavsiXO-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="cthHpz0YjyCCFyavsiXO-8" value="Delete files from the device that do not exist locally but exist on the device" style="whiteSpace=wrap;html=1;fontSize=14;fillColor=#db2843;strokeColor=none;fontColor=#FFFFFF;rounded=1;arcSize=50;strokeWidth=1;spacingLeft=0;fontStyle=1;spacing=10;fillStyle=auto;" vertex="1" parent="1">
+          <mxGeometry x="479" y="120" width="280" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="cthHpz0YjyCCFyavsiXO-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#000000;" edge="1" parent="1" source="cthHpz0YjyCCFyavsiXO-10" target="cthHpz0YjyCCFyavsiXO-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="cthHpz0YjyCCFyavsiXO-10" value="Push files that are not in the device but exist locally to the device." style="whiteSpace=wrap;html=1;fontSize=14;fillColor=#db2843;strokeColor=none;fontColor=#FFFFFF;rounded=1;arcSize=50;strokeWidth=1;spacingLeft=0;fontStyle=1;spacing=10;fillStyle=auto;" vertex="1" parent="1">
+          <mxGeometry x="285.25" y="210" width="252.5" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="cthHpz0YjyCCFyavsiXO-11" value="Check the hash of the files both in the local and the device,&amp;nbsp;and then push the different files from the local to the device." style="whiteSpace=wrap;html=1;fontSize=14;fillColor=#db2843;strokeColor=none;fontColor=#FFFFFF;rounded=1;arcSize=50;strokeWidth=1;spacingLeft=0;fontStyle=1;spacing=10;fillStyle=auto;" vertex="1" parent="1">
+          <mxGeometry x="252.75" y="300" width="317.5" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
