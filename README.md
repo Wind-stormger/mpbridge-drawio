@@ -1,3 +1,7 @@
 # mpbridge-drawio
 
-![mpbridge.drawio](mpbridge-Page-1.drawio.svg)
+![](flowchart_sync.svg)
+
+![](flowchart_sync_files.svg)
+
+![](flowchart_dev.svg)
